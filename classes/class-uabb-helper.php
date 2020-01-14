@@ -591,7 +591,7 @@ if ( ! class_exists( 'BB_Ultimate_Addon_Helper' ) ) {
 
 			$posts_created_with_uabb = get_option( 'posts-created-with-uabb' );
 
-			if ( ! empty( $posts_created_with_uabb ) && 5 === $posts_created_with_uabb ) {
+			if ( ! empty( $posts_created_with_uabb ) && 5 == $posts_created_with_uabb ) {
 
 				return true;
 
